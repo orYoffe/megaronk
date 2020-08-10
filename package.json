@@ -1,18 +1,8 @@
 {
   "name": "megaronk",
-  "version": "0.4.0",
+  "version": "5.4.0",
   "description": "megaronk, take care of your dependencies",
   "main": "index.js",
-  "scripts": {
-    "test": "jest",
-    "test-watch": "jest --watch",
-    "build": "npx rimraf dist && rollup -c",
-    "prepublishOnly": "npm run build",
-    "precommit": "npm run build && npm run test"
-  },
-  "files": [
-    "dist"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/orYoffe/megaronk.git"
@@ -20,8 +10,7 @@
   "keywords": [
     "megaronk",
     "nodejs",
-    "backend",
-    "Dependencies"
+    "Dependencies magic"
   ],
   "author": {
     "name": "Or Yoffe",
@@ -31,19 +20,5 @@
   "bugs": {
     "url": "https://github.com/orYoffe/megaronk/issues"
   },
-  "homepage": "https://github.com/orYoffe/megaronk#readme",
-  "devDependencies": {
-    "@babel/core": "^7.3.3",
-    "@babel/preset-env": "^7.3.1",
-    "babel-jest": "^24.9.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
-    "husky": "^3.1.0",
-    "jest": "^24.9.0",
-    "rollup": "^1.2.2",
-    "rollup-plugin-babel": "^4.3.2",
-    "rollup-plugin-commonjs": "^10.0.1",
-    "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-replace": "^2.0.0",
-    "rollup-plugin-terser": "^5.1.2"
-  }
+  "homepage": "https://github.com/orYoffe/megaronk#readme"
 }
