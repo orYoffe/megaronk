@@ -22,6 +22,7 @@
 npm install --save-dev megaronk
 ```
 
+*This package is not meant to be used in production!
 ## Usage
 
 ### testing your dependencies
@@ -31,6 +32,18 @@ const megaronk = require('megaronk');
 
 // Testing your package.json
 megaronk();
-// Logs results: versions
+// Logs results: versions, options, scripts, json format
+
+```
+
+### optimize your dependencies
+
+```js
+const megaronk = require('megaronk');
+
+// Business logic
+
+megaronk.optimize();
+// Check your console for the results
 
 ```
