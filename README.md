@@ -19,7 +19,7 @@
 ## Install
 
 ```sh
-npm i -S megaronk
+npm install --save-dev megaronk
 ```
 
 ## Usage
@@ -27,4 +27,10 @@ npm i -S megaronk
 ### testing your dependencies
 
 ```js
+const megaronk = require('megaronk');
+
+// Testing your package.json
+megaronk();
+// Logs results: versions
+
 ```
